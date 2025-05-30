@@ -6,33 +6,31 @@ backButton.addEventListener('click', () => {
 
 const questions = [
 	{
-		question: 'Какой язык работает в браузере?',
-		answers: ['Java', 'C', 'Python', 'JavaScript'],
-		correct: 4,
-	},
-	{
-		question: 'Что означает CSS?',
-		answers: [
-			'Central Style Sheets',
-			'Cascading Style Sheets',
-			'Cascading Simple Sheets',
-			'Cars SUVs Sailboats',
-		],
+		question:
+			'Kompyuterning apparat va dasturiy taʼminoti oʻrtasidagi aloqani taʼminlovchi va uning ishlashini boshqaruvchi asosiy dasturlar toʻplami nima deb ataladi?',
+		answers: ['Antivirus dasturi', 'Operatsion tizim', 'Ofis paketi', 'Grafik muharrir'],
 		correct: 2,
 	},
 	{
-		question: 'Что означает HTML?',
-		answers: [
-			'Hypertext Markup Language',
-			'Hypertext Markdown Language',
-			'Hyperloop Machine Language',
-			'Helicopters Terminals Motorboats Lamborginis',
-		],
-		correct: 1,
+		question: 'Quyidagilardan qaysi biri "ochiq kodli" operatsion tizim hisoblanadi?',
+		answers: ['Windows', 'macOS', 'Android ', 'Linux'],
+		correct: 4,
 	},
 	{
-		question: 'В каком году был создан JavaScript?',
-		answers: ['1996', '1995', '1994', 'все ответы неверные'],
+		question:
+			'Fayllar va papkalarni boshqarish, dasturlarni ishga tushirish va tizim sozlamalarini oʻzgartirish uchun operatsion tizimning qaysi qismi javobgar?',
+		answers: ['Drayver ', 'Yadro ', 'Foydalanuvchi interfeysi ', 'Bufer'],
+		correct: 3,
+	},
+	{
+		question:
+			'Bir vaqtning oʻzida bir nechta dasturni ishlatish imkoniyatini beruvchi operatsion tizim xususiyati nima deb ataladi?',
+		answers: [
+			'Bir vazifalilik (Single-tasking)',
+			'Koʻp vazifalilik (Multi-tasking) ',
+			'Bir foydalanuvchilik (Single-user) ',
+			'Tarmoqlanish (Networking)',
+		],
 		correct: 2,
 	},
 ]
