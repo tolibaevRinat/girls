@@ -110,6 +110,7 @@ body {
 
 .quiz-list li {
 	font-size: 1.2rem;
+	line-height: 1.2;
 }
 
 .quiz-list label {
@@ -216,4 +217,13 @@ body {
 	width: 800px;
 
 	height: 600px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.pdf-wrapper {
+	max-width: 800px;
+	margin: 50px auto 0;
 }
